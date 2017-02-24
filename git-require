@@ -1,3 +1,12 @@
 # /bin/bash
 
+# Introduction
+# git require only expects two arguments
+# being $0 the first one equal to the target language
+# for example we use the standard package manager
+# for that one like for an argumen "php" we will 
+# use composer and handler of the required packages.
+# The second argument is all the options and arguments
+# used normally by the package manager.
+
 echo "Hello world"
