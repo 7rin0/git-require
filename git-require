@@ -6,6 +6,8 @@
 # The second argument is all the options and arguments
 # used normally by the package manager.
 
+# TODO Make it work on other linux distributions, Windows and macOS.
+
 # Evaluate if target dependecy manager exists.
 if hash $1 2>/dev/null; then
 	# Simple as that.
